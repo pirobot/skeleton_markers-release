@@ -1,0 +1,12 @@
+Source: ros-hydro-skeleton-markers
+Section: misc
+Priority: extra
+Maintainer: Patrick Goebel <patrick@pirobot.org>
+Build-Depends: debhelper (>= 7.0.50~), libopenni-dev, libopenni-nite-dev, libopenni-sensor-primesense-dev, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-openni-camera, ros-hydro-openni-tracker, ros-hydro-orocos-kdl, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-tf, ros-hydro-visualization-msgs
+Homepage: http://ros.org/wiki/skeleton_markers
+Standards-Version: 3.9.2
+
+Package: ros-hydro-skeleton-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopenni-dev, libopenni-nite-dev, libopenni-sensor-primesense-dev, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-openni-camera, ros-hydro-openni-tracker, ros-hydro-orocos-kdl, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-tf, ros-hydro-visualization-msgs
+Description: Skeleton Markers: Publish a list of joint markers for viewing in RViz.
