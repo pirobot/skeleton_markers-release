@@ -1,0 +1,11 @@
+ros-hydro-skeleton-markers (0.4.1-1raring) raring; urgency=high
+
+  * Renamed skeleton_markers.py to markers_from_skeleton_msg.py since catkin cannot have a script with the same name as the package
+  * Removed roslib import from Python nodes
+  * Tweaked markers_from_tf.py to deal with user index suffix in frame names
+  * Initial commit
+  * Contributors: Patrick Goebel
+
+ -- Patrick Goebel <patrick@pirobot.org>  Mon, 30 Dec 2013 08:00:00 -0000
+
+
